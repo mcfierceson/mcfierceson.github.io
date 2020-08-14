@@ -1,0 +1,63 @@
+body {
+  background-color: dimgrey;
+}
+
+h1 {
+  color: rgb(42, 173, 156);
+}
+
+h2 {
+  color: rgb(42, 173, 156);
+}
+
+h3 {
+  color: rgb(42, 173, 156);
+}
+
+[class="thumbnail-"]{
+
+}
+
+.thumbnail-border {
+  border: 5px solid rgb(42, 173, 156);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+}
+
+.container * {
+  padding: 5px 10px;
+}
+
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#nav-select {
+  visibility: hidden;
+}
+
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
